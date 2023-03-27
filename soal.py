@@ -16,7 +16,7 @@ def dfine(ujianx, name):
 		soal = knt.find("div", {"class": "soal"})
 		shs = ""
 		if "img" in str(soal):
-			shs += "http://103.139.175.10/ujianutama/" + soal.find("img")["src"]
+			shs += "http://%s/ujianutama/" % (url) + soal.find("img")["src"]
 			try:
 				shs += soal.text + "\n"
 			except:
