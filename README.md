@@ -2,8 +2,9 @@
 take exam questions using the scraper method
 
 ## example code
-```php
-<?php
-echo "hello world";
-?>
+```python
+class console:
+  def log(teks):
+      print(teks)
+console.log("hello world")
 ```
